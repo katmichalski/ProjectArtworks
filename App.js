@@ -5,6 +5,9 @@ import 'index.css'
 import './index.js'
 import './todo.js'
 import './.vscode/launch.json'
+import './node_modules'
+import './fonts'
+import 'manifest.json'
 
 class App extends { Component } {
   render () {
