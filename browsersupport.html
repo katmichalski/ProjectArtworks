@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+
+<html>
+   <head>
+      <title>Big for loop</title>
+      <script src = "/js/modernizr-1.5.min.js"></script>
+      
+      <script>
+      function myFunction() {
+         
+         if (Modernizr.webworkers) {
+            alert("Congratulation!! you have web workers support." );
+         } else {
+            alert("Sorry!! you do not have web workers support." );
+         }
+      }
+      </script>
+   </head>
+   
+   <body>
+      <button onclick = "myFunction()">Click me</button>
+   </body>
+</html>
