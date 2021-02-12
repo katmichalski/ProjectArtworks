@@ -1,0 +1,17 @@
+{
+    "short_name": "Project Artworks",
+    "name": "Just KiddingTM PROJECT ARTWORKS",
+    "start_url": "/?source=pwa",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "shortcuts": [
+      {
+        "name": "about Project Artworks",
+        "short_name": "about",
+        "description": "View about page",
+        "url": "/about?source=pwa",
+        "icons": [{ }]
+      } ]} 
+
+
