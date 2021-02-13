@@ -1,0 +1,34 @@
+
+
+
+{
+    "short_name": "Project Artworks",
+    "name": "Just KiddingTM PROJECT ARTWORKS",
+    "start_url": "http://localhost:3000",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "shortcuts": [
+      {
+        "name": "about Project Artworks",
+        "short_name": "about",
+        "description": "View about page",
+        "url": "http://localhost:3000/about",
+        "icons": [{ }]
+      } ] ,
+
+
+      "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],    
+          "web_accessible_resources": [
+              "launch.json",
+              "App.js",
+              "App.css"
+           ]
+        }
+    ]
+
+  }
