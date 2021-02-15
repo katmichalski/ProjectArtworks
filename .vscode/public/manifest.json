@@ -1,0 +1,74 @@
+
+
+
+{
+    "short_name": "Project Artworks",
+    "name": "Just KiddingTM PROJECT ARTWORKS",
+    "start_url": "http://localhost:3000",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "shortcuts": [
+      {
+        "name": "about Project Artworks",
+        "short_name": "Artworks",
+        "description": "View about page",
+        "url": "http://localhost:3000",
+        "icons": [{ }]
+      } ] ,
+
+
+      "content_scripts": [
+        {
+            "js": [
+                "content.js",
+                "modernizr-1.5min.js"
+            ],
+          "web_accessible_resources": [
+              "launch.json",
+              "App.js",
+              "App.css",
+              "browsersupport.html",
+              "/node_modules",
+              "~/src/"
+]
+        }
+    ],
+    {
+      "name": "myIndexer",
+      "dataSourceName": "myDataSource",
+      "targetIndexName": "myIndex",
+      "skillsetName": "mySkillSet",
+      "fieldMappings": [
+        {
+          "sourceFieldName": "metadata_storage_path",
+          "targetFieldName": "id",
+          "mappingFunction": {
+            "name": "base64Encode"
+          }
+        }
+      ]
+    },
+    {
+      "name": "My-Search",
+      "fields": [
+        {
+        "name": "Search",
+        "type": "Edm.String",
+        "key": true,
+        "searchable": true,
+        "filterable": true,
+        "facetable": true,
+        "sortable": true
+        },
+        {
+        "name": "search1",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "facetable": true,
+        "sortable": true
+        }
+      ]
+    }
+  }

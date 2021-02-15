@@ -43,8 +43,15 @@
   ],
   "dependencies": {
     "@svgr/plugin-jsx": "^5.4.0",
+    "argv": "0.0.2",
+    "bootstrap": "^4.6.0",
     "camelcase": "^6.0.0",
-    "cosmiconfig": "^6.0.0"
+    "cosmiconfig": "^6.0.0",
+    "jquery": "^3.5.1",
+    "node": "^15.8.0",
+    "node-gyp": "^7.1.2",
+    "popper.js": "^1.16.1",
+    "rebuild": "^0.1.2"
   },
   "deprecated": false,
   "description": "Transform SVG into React Components.",
@@ -57,8 +64,9 @@
     "url": "https://github.com/gregberge/svgr/tree/master/packages/core"
   },
   "scripts": {
+    "start": "App.js",
     "build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
-    "prebuild": "rm -rf lib/",
+    "pre-build": "rm -rf lib/",
     "prepublishOnly": "yarn run build"
   },
   "typeScriptVersion": "3.2",
