@@ -25,7 +25,9 @@
                 "modernizr-1.5min.js"
             ],
           "web_accessible_resources": [
+              "manifest.json",
               "launch.json",
+              "package.json",
               "App.js",
               "App.css",
               "browsersupport.html",
@@ -34,6 +36,7 @@
 ]
         }
     ],
+    "Index":
     {
       "name": "myIndexer",
       "dataSourceName": "myDataSource",
@@ -49,6 +52,7 @@
         }
       ]
     },
+    "Indexer":
     {
       "name": "My-Search",
       "fields": [

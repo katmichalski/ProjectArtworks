@@ -48,6 +48,7 @@
     "camelcase": "^6.0.0",
     "cosmiconfig": "^6.0.0",
     "jquery": "^3.5.1",
+    "next.js": "^1.0.3",
     "node": "^15.8.0",
     "node-gyp": "^7.1.2",
     "popper.js": "^1.16.1",
@@ -94,5 +95,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16"
   }
 }
