@@ -2,11 +2,13 @@
   "name": "jktm-projectartworks",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "label": "package.json",
+
+
+"scripts": {
+  "start": "react-scripts start",
+  "dev": "(cd server && npm run start) & npm run start"
+},
   "dependencies": {
     "next": "10.0.7",
     "react": "17.0.1",
