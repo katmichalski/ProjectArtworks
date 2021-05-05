@@ -26,16 +26,16 @@ node.js
 
 
 # Getting Started
+To make your portfolio page, you first need to sign up into the website and then pick from a variety of portfolios that you can edit. After you have chosen the portfolio page that you want and edited in your details, all of this will be saved and will be visible to other people coming in to view the site.
 
 ## Prerequisites
+A working internet connection and a device capable of connecting to the site
 
 ## Installation
-
-
+No installation neccesary 
 
 # Usage
-
-
+This is to be used as a way 
 # Roadmap
 
 See the open issues for a list of proposed features (and known issues).
