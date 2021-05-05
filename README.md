@@ -35,7 +35,7 @@ A working internet connection and a device capable of connecting to the site
 No installation neccesary 
 
 # Usage
-This is to be used as a way 
+For portfolio pages that show images all you need to do is press the plus and negative button to add and delete images. The images will be added to the front of the order and will be deleted from the end of the order. To edit text, click on the generic text and delete it and replace it with your own information.
 # Roadmap
 
 See the open issues for a list of proposed features (and known issues).
